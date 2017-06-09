@@ -1,0 +1,16 @@
+{
+  "name": "typescript_jquery",
+  "version": "1.0.0",
+  "description": "Small example with typescript and jquery",
+  "scripts": {
+    "build": "tsc && webpack --config webpack.config.js"
+  },
+  "author": "Erik Schilling <ablu.erikschilling@gmail.com>",
+  "devDependencies": {
+    "typescript": "2.3.4",
+    "@types/jquery": "2.0.46",
+    "ts-loader": "2.1.0",
+    "webpack": "2.6.1",
+    "jquery": "3.2.1"
+  }
+}
